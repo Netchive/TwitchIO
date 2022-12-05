@@ -18,7 +18,9 @@ Master
         - Fix auto reconnect of websocket. Created tasks by asyncio.create_task() need to be referred to prevent task disappearing (garbage collection).
         - Fix parsing ScheduleSegments where end_time is None
         - Fix parsing :class:`~twitchio.ScheduleSegment` where :attr:`~twitchio.ScheduleSegment.end_time` is None
->>>>>>> 4bc569b (Update changelog and docstring)
+        - Fix auto reconnect of websocket. Created tasks by asyncio.create_task() need to be referred to prevent task disappearing (garbage collection).
+
+=======
 
 - ext.eventsub
     - Additions
